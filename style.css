@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(40,44,52);
+    font-family: 'Roboto', sans-serif;
+    color: #88c999;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#logindraw{
+    width: 30em;
+    height: 100%;
+    margin: 5em;
+}
+#login{
+    border: 2px rgb(40,44,52) solid;
+    border-radius: 2em;
+    background-color: rgb(50, 55, 66);
+    padding: 2em;
+    margin-top: 5em;
+}
+#login_title{
+    text-align: center;
+    letter-spacing: .1em;
+    margin-bottom: 3em;
+    border-bottom: 1px solid #88c999;
+}
+#input_form{
+    padding: .5em;
+    border-bottom: 1px solid #88c999;
+}
+#email{
+    width: 100%;
+    background-color: rgb(40,44,52);
+    border-radius: .2em;
+    padding: .5em;
+    color: #88c999;
+    margin-bottom: 1em;
+    font-size: 1em;
+
+}
+#email:hover{
+    background-color: rgb(50, 55, 65);
+}
+#password{
+    width: 100%;
+    background-color: rgb(40,44,52);
+    border-radius: .2em;
+    padding: .5em;
+    color: #88c999;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+#password:hover{
+    background-color: rgb(50, 55, 65);
+}
+#submit{
+    margin: .5em;
+    width: 100%;
+    border-radius: .3em;
+    background-color: #88c999;
+    padding: .5em;
+    font-weight: 750;
+    margin-bottom: 1em;
+    font-size: 1em;
+
+}
+#register{
+    padding: 5px;
+}
+#createAccount{
+    width: 100%;
+    margin: .5em;
+    border-radius: .3em;
+    background-color: #88c999;
+    padding: .5em;
+    font-weight: 750;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: #88c999;
+}
