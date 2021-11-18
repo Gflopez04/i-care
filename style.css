@@ -14,13 +14,19 @@ body{
     border: 2px rgb(40,44,52) solid;
     border-radius: 2em;
     background-color: rgb(50, 55, 66);
-    padding: 2em;
-    margin-top: 5em;
+    padding: 1.5em;
+    margin: 1em;
+}
+#login-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 #login_title{
     text-align: center;
     letter-spacing: .1em;
-    margin-bottom: 3em;
+    margin-bottom: .8em;
     border-bottom: 1px solid #88c999;
     color: #d7ddd8;
 }
@@ -34,7 +40,7 @@ body{
     border-radius: .2em;
     padding: .5em;
     color: #88c999;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     font-size: 1em;
 
 }
@@ -47,7 +53,7 @@ body{
     border-radius: .2em;
     padding: .5em;
     color: #88c999;
-    margin-bottom: 1em;
+    margin-bottom: .8em;
     font-size: 1em;
 }
 #password:hover{
@@ -71,6 +77,12 @@ body{
 }
 #register{
     padding: 5px;
+}
+#forgot-password{
+    font-weight: 700;
+}
+#forgot-password:hover{
+    color: #ebeeeb;
 }
 #createAccount{
     width: 100%;
