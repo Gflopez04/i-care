@@ -1,4 +1,4 @@
-var state=flase;
+var state=false;
 function toggle(){
     if(state){
         document.getElementById("password").setAttribute("type","password");
