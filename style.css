@@ -59,6 +59,17 @@ body{
 #password:hover{
     background-color: rgb(50, 55, 65);
 }
+#show_password{
+    position: absolute;
+    right: 30em;
+    transform: translate(0,-50%);
+    top: 51%;
+    cursor: pointer;
+}
+.far{
+    font-size: 18px;
+    color: #d7ddd8;
+}
 #submit{
     margin: .5em;
     width: 100%;

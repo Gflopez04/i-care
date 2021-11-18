@@ -5,10 +5,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
+    <script src="code.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1.0, initial-scale=1.0">
-    <title>Login</title>
+    <title>I-care | Login</title>
 </head>
 <body>
     <div id="container">
@@ -21,12 +23,15 @@
                     <input type="email" id="email" placeholder="Email">
 
                     <input type="password" id="password" placeholder="Password  ">
+                    <span id="show_password">
+                        <i class="far fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                    </span>
                     <br>
-                    <input type="submit" value="sign in" id="submit">
+                    <input type="submit" value="Sign in" id="submit">
                     </br>
                 </form>
             <div id="register">
-                <a href="#" id="forgot-password">forgot your password?</a>
+                <a href="#" id="forgot-password">Forgot your password?</a>
                 <p>No with us yet, join us!</p>
                 <input type="button" value="Create an account" id="createAccount">
             </div>
