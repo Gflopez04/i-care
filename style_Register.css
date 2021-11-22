@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(40,44,52);
+    font-family: 'Roboto', sans-serif;
+    color: #88c999;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#register{
+    border: 2px rgb(40,44,52) solid;
+    border-radius: 2em;
+    background-color: rgb(50, 55, 66);
+    padding: 1.5em;
+    margin: 1em;
+    width: 40%;
+}
+#title-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    max-width: 100%;
+}
+#Register-title{
+    text-align: center;
+    letter-spacing: .1em;
+    margin-bottom: .8em;
+    border-bottom: 1px solid #88c999;
+    color: #d7ddd8;
+}
+.inputs input{
+    width: 100%;
+    background-color: rgb(40,44,52);
+    border-radius: .2em;
+    padding: .5em;
+    color: #88c999;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+.inputs input:hover{
+    background-color: rgb(50, 55, 65);
+}
+#sign-up_buttom{
+    color: #1d1d1d;
+    margin: .5em;
+    width: 100%;
+    border-radius: .3em;
+    background: rgb(136,201,153);
+    background: linear-gradient(90deg, rgba(136,201,153,1) 46%, rgba(73,173,99,1) 78%); 
+    padding: .5em;
+    font-weight: 750;
+    margin-bottom: 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+#sign-up_buttom:hover{
+    background: rgb(146,200,160);
+    background: linear-gradient(90deg, rgba(146,200,160,1) 38%, rgba(171,240,189,1) 78%);
+}
+.Sign-in_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .1em;
+}
+a{
+    text-decoration: none;
+    color: #d7ddd8;
+}
+::-webkit-scrollbar{
+    width: .8em;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(149, 148, 148);
+    border-radius: 10px;
+}
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(189, 186, 186);
+}
