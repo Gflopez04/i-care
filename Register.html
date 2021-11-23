@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style_Register.css">
+    <script src="https://kit.fontawesome.com/89c02ffa52.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +20,16 @@
                 <input type="text" placeholder="Email">
                 <input type="text" placeholder="Password">
                 <input type="date" name="date" >
-                <input type="checkbox" name="men" id="men">
-                <input type="checkbox" name="woman" id="woman">
+                <div class="gender">
+                    <label class="form-control">
+                        <i class="fas fa-male"></i>
+                        <input type="radio" name="radio">
+                    </label>
+                        <label class="form-control">
+                            <i class="fas fa-female"></i>
+                        <input type="radio" name="radio">
+                        </label>
+                </div>
                 <input type="number" name="height"  placeholder="Height(cm)">
                 <input type="number" name="Weight"  placeholder="Weight(Kg)">
                 <input type="button" value="Sign up" id="sign-up_buttom">
