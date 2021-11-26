@@ -47,55 +47,6 @@ body{
 .inputs input:hover{
     background-color: rgb(50, 55, 65);
 }
-:root {
-    --form-control-color: #d7ddd8;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  }
-.gender{
-    display: flex;
-    justify-content: space-evenly;
-    margin: .3em;
-}
-.gender input{
-    cursor: pointer;
-    appearance: none;
-    background-color: var(--form-background);
-    margin: 0;
-    width: 1em;
-    height: 1em;
-    border: 0.15em solid #c94ed4;
-    border-radius: 50%;
-    transform: translateY(-0.075em);
-    display: grid;
-    place-content: center;
-}
-.gender input[type="radio"]::before {
-    content: "";
-    width: 0.65em;
-    height: 0.65em;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em var(--form-control-color);
-    background-color: #d7ddd8;
-  }
-.gender input[type="radio"]:checked::before {
-    transform: scale(1);
-  }
-  
-.gender input[type="radio"]:focus {
-    outline: max(2px, 0.15em) solid currentColor;
-    outline-offset: max(2px, 0.15em);
-  }
-.gender div{
-    display: block;
-}
-    
 #submit{
     color: #1d1d1d;
     margin-top: .5em;
