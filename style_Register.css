@@ -1,12 +1,13 @@
 body{
     background-color: rgb(40,44,52);
     font-family: 'Roboto', sans-serif;
-    color: #88c999;
+    color: #7e42ee;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 #container{
+    height: 39em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@ body{
     text-align: center;
     letter-spacing: .1em;
     margin-bottom: .8em;
-    border-bottom: 1px solid #88c999;
+    border-bottom: 1px solid #c94ed4;;
     color: #d7ddd8;
 }
 .inputs input{
@@ -39,7 +40,7 @@ body{
     background-color: rgb(40,44,52);
     border-radius: .2em;
     padding: .5em;
-    color: #88c999;
+    color: #ebeeeb;
     margin-bottom: .5em;
     font-size: 1em;
 }
@@ -67,7 +68,7 @@ body{
     margin: 0;
     width: 1em;
     height: 1em;
-    border: 0.15em solid #88c999;
+    border: 0.15em solid #c94ed4;
     border-radius: 50%;
     transform: translateY(-0.075em);
     display: grid;
@@ -95,22 +96,22 @@ body{
     display: block;
 }
     
-#sign-up_buttom{
+#submit{
     color: #1d1d1d;
     margin-top: .5em;
     width: 100%;
     border-radius: .3em;
-    background: rgb(136,201,153);
-    background: linear-gradient(90deg, rgba(136,201,153,1) 46%, rgba(73,173,99,1) 78%); 
+    background: rgb(181,113,207);
+    background: linear-gradient(90deg, rgba(181,113,207,1) 13%, rgba(145,66,223,1) 45%, rgba(173,58,226,1) 80%);
     padding: .5em;
     font-weight: 750;
     margin-bottom: 1em;
     font-size: 1em;
     cursor: pointer;
 }
-#sign-up_buttom:hover{
-    background: rgb(146,200,160);
-    background: linear-gradient(90deg, rgba(146,200,160,1) 38%, rgba(171,240,189,1) 78%);
+#submit:hover{
+    background: rgb(198,127,224);
+    background: linear-gradient(90deg, rgba(198,127,224,1) 13%, rgba(164,85,242,1) 45%, rgba(189,73,242,1) 80%);   
 }
 .Sign-in_Container{
     display: flex;
@@ -119,6 +120,7 @@ body{
     letter-spacing: .1em;
 }
 a{
+    font-weight: 600;
     text-decoration: none;
     color: #d7ddd8;
 }

@@ -1,7 +1,7 @@
 body{
     background-color: rgb(40,44,52);
     font-family: 'Roboto', sans-serif;
-    color: #88c999;
+    color: #7e42ee;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,26 +21,26 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 25%;
     max-width: 100%;
 }
 #login_title{
     text-align: center;
     letter-spacing: .1em;
     margin-bottom: .8em;
-    border-bottom: 1px solid #88c999;
+    border-bottom: 1px solid #c94ed4;;
     color: #d7ddd8;
 }
 #input_form{
     padding: .5em;
-    border-bottom: 1px solid #88c999;
+    border-bottom: 1px solid #c94ed4;;
 }
 #email{
     width: 100%;
     background-color: rgb(40,44,52);
     border-radius: .2em;
     padding: .5em;
-    color: #88c999;
+    color: #ebeeeb;
     margin-bottom: .5em;
     font-size: 1em;
 
@@ -53,7 +53,7 @@ body{
     background-color: rgb(40,44,52);
     border-radius: .2em;
     padding: .5em;
-    color: #88c999;
+    color: #ebeeeb;
     margin-bottom: .8em;
     font-size: 1em;
 }
@@ -64,8 +64,8 @@ body{
     margin: .5em;
     width: 100%;
     border-radius: .3em;
-    background: rgb(136,201,153);
-    background: linear-gradient(90deg, rgba(136,201,153,1) 46%, rgba(73,173,99,1) 78%); 
+    background: rgb(181,113,207);
+background: linear-gradient(90deg, rgba(181,113,207,1) 13%, rgba(145,66,223,1) 45%, rgba(173,58,226,1) 80%);
     padding: .5em;
     font-weight: 750;
     margin-bottom: 1em;
@@ -73,8 +73,8 @@ body{
     cursor: pointer;
 }
 #submit:hover{
-    background: rgb(146,200,160);
-    background: linear-gradient(90deg, rgba(146,200,160,1) 38%, rgba(171,240,189,1) 78%);
+    background: rgb(198,127,224);
+    background: linear-gradient(90deg, rgba(198,127,224,1) 13%, rgba(164,85,242,1) 45%, rgba(189,73,242,1) 80%);
 }
 #register{
     padding: 5px;
@@ -89,8 +89,8 @@ body{
     width: 100%;
     margin: .5em;
     border-radius: .3em;
-    background: rgb(136,201,153);
-    background: linear-gradient(90deg, rgba(136,201,153,1) 46%, rgba(73,173,99,1) 78%);
+    background: rgb(181,113,207);
+    background: linear-gradient(90deg, rgba(181,113,207,1) 13%, rgba(145,66,223,1) 45%, rgba(173,58,226,1) 80%);
     padding: .5em;
     font-weight: 750;
     margin-bottom: 1em;
@@ -98,8 +98,8 @@ body{
     cursor: pointer;
 }
 #createAccount:hover{
-    background: rgb(146,200,160);
-    background: linear-gradient(90deg, rgba(146,200,160,1) 38%, rgba(171,240,189,1) 78%);
+    background: rgb(198,127,224);
+    background: linear-gradient(90deg, rgba(198,127,224,1) 13%, rgba(164,85,242,1) 45%, rgba(189,73,242,1) 80%);
 }
 a{
     text-decoration: none;
